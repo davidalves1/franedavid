@@ -1,0 +1,24 @@
+{
+  "name": "franedavid",
+  "authors": [
+    "davidalves1 <alves.david@outlook.com>"
+  ],
+  "description": "Site de casamento de Fran e David",
+  "main": "",
+  "keywords": [
+    "wedding",
+    "casamento"
+  ],
+  "license": "ISC",
+  "homepage": "franedavid.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flexboxgrid": "^6.3.0"
+  }
+}
