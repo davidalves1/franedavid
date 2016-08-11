@@ -1,10 +1,17 @@
- @font-face
+@font-face
    font-family taggetes
    font-style normal
-   src url(/src/fonts/tagettes/tagetts2_U.ttf)
+   src url(/src/fonts/tagettes/tagetts2_U.ttf)   
+   
+@font-face
+   font-family Source Sans Pro
+   font-style normal
+   src url(https://fonts.googleapis.com/css?family=Source+Sans+Pro)
+	
 
 
 body
+	font-family Tahoma, Georgia, Arial, sans-serif
 	min-height 3000px
 
 header
@@ -14,13 +21,57 @@ header
 	background-repeat no-repeat
 	background-position center top
 	background-attachment fixed
-	background-image url(/src/img/header.png) 
+	background-image url(/dist/img/header.png) 
 	
 	h1, h2
 		font-family taggetes, Georgia, Arial, sans-serif
 		text-align center
 		color #FEFEFE
 		text-shadow black 0.1em 0.1em 0.2em
+		
+	
+		
+.nossa-historia
+	height 60vh
+
+	h1
+		font-size 4em
+		text-align center
+	p
+		font-family Source Sans Pro, Georgia, sans-serif
+
+.save-the-date
+	height 60vh
+	padding 2vw
+	// background-color #FAEBE3
+	text-align center
+	background-size cover
+	background-repeat no-repeat
+	background-position center top
+	background-attachment fixed
+	background-image url(/dist/img/riso.jpg)
+	color #EEE 
+	text-shadow black 0.1em 0.1em 0.2em
+	
+	h1
+		font-size 4em
+		text-align center
+		
+	h3
+		font-family Source Sans Pro, Georgia, sans-serif
+		
+.eventos
+	text-align center
+
+	h1
+		font-size 4em
+		
+	h3
+		font-size 2em
+		color #FF745C
+	p 
+		font-family Source Sans Pro, Georgia, sans-serif
+		
 		
 .vh100
 	min-height 100vh
