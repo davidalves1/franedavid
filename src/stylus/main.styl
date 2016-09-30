@@ -43,13 +43,18 @@ p
 header
 	height 100vh
 	padding 2vw
-	-webkit-background-size 100%
-	-moz-background-size 100%
-	background-size 100%
+	-webkit-background-size cover
+	-moz-background-size cover
+	background-size cover
 	background-repeat no-repeat
 	background-position center top
 	background-attachment fixed
-	background-image url(../../img/header.jpg) 
+	background-image url(../../img/header.jpg)
+	
+	@media screen and (max-width: 768px)
+		-webkit-background-size 100%
+		-moz-background-size 100%
+		background-size 100%
 	
 	h1, h2
 		font-size 2em
@@ -58,23 +63,26 @@ header
 		color #FEFEFE
 		text-shadow #111 0.1em 0.1em 0.2em
 		
-	
-		
 .nossa-historia
 	padding 2em
 
 .save-the-date
 	padding 2em
 	text-align center
-	-webkit-background-size 100%
-	-moz-background-size 100%
-	background-size 100%
+	-webkit-background-size cover
+	-moz-background-size cover
+	background-size cover
 	background-repeat no-repeat
-	background-position center top
+	background-position center
 	background-attachment fixed
-	background-image url(../../img/foto7.jpg)
+	background-image url(../../img/save-the-date.jpg)
 	color #FEFEFE 
 	text-shadow #111 0.1em 0.1em 0.2em
+	
+	@media screen and (max-width: 768px)
+		-webkit-background-size 100%
+		-moz-background-size 100%
+		background-size 100%
 		
 	h1
 		color #FEFEFE
@@ -93,15 +101,20 @@ header
 .fotos
 	padding 2em
 	text-align center
-	-webkit-background-size 100%
-	-moz-background-size 100%
-	background-size 100%
+	-webkit-background-size cover
+	-moz-background-size cover
+	background-size cover
 	background-repeat no-repeat
-	background-position center top
+	background-position center
 	background-attachment fixed
 	background-image url(../../img/background-fotos.jpg)
 	color #FEFEFE 
 	text-shadow #111 0.1em 0.1em 0.2em
+	
+	@media screen and (max-width: 768px)
+		-webkit-background-size 100%
+		-moz-background-size 100%
+		background-size 100%
 		
 	h1
 		color #FEFEFE
